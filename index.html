@@ -15,22 +15,23 @@
 			display:flex;
 			justify-content: center;
 			align-items: center;
+			margin-bottom: -900px;
 			
 		}
 		div{
 			display: relative;
 			overflow:hidden;
-			font-size:130px;
+			font-size:210px;
 			font-weight:600;
 			color:transparent;
-			margin: 50% auto;
+			margin:0 auto;
 		}
 		div:after{
 			content:"渴望世界不一样";
 			display: absolute;
 			left:0;
 			top:0;
-			bottom:300;
+			bottom:0;
 			width:50em;
 			background-image:-webkit-linear-gradient(left, 
 #D1EEFF 0%, 
@@ -57,6 +58,7 @@
  -webkit-background-clip: text;
  color: transparent;
  animation:mymove 120s ease infinite;
+ transform: rotate(30deg);
 }
 @keyframes mymove {
 		0%{
